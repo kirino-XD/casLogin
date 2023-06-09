@@ -1,0 +1,362 @@
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+html,
+body,
+.div {
+  height: 100%;
+}
+
+ul,
+ol,
+li,
+p,
+form,
+fieldset,
+table,
+td,
+div,
+footer,
+i {
+  font-size: 0.875rem;
+}
+
+body,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+table,
+td,
+img,
+div,
+footer,
+i {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: '΢���ź�', 'Open Sans', sans-serif;
+}
+
+.rk-dialog .el-dialog__title {
+  font-size: 16px;
+
+}
+
+.rk-dialog .el-dialog__headerbtn {
+  top: 0.625rem;
+  right: 1.25rem;
+}
+
+.rk-dialog .el-dialog__headerbtn i {
+  color: #fff;
+}
+
+.rk-dialog .el-dialog__header {
+  padding: 0 1rem;
+  line-height: 2.5rem;
+  height: 2.5rem;
+  background: #409EFF;
+
+}
+
+.rk-dialog .el-dialog__header .el-dialog__title {
+  font-size: 20px;
+  font-family: YouSheBiaoTiHei;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.rk-dialog .el-dialog__header .el-dialog__title::before {
+  background: url('../images/shape.png') no-repeat;
+  content: '';
+  padding: 0 10px;
+  margin-right: 8px;
+
+}
+
+.rk-dialog .table {
+  z-index: 9999;
+}
+
+.rk-dialog .table .download-button {
+  cursor: pointer;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  text-decoration: underline;
+  color: #E6A23C;
+}
+
+.rk-dialog .table .header-row-class th:first-child {
+  padding-left: 32px;
+}
+
+.rk-dialog .table .el-table__row td:first-child {
+  padding-left: 32px;
+}
+
+.rk-dialog .el-dialog__body {
+  padding: 0;
+}
+
+@font-face {
+  font-family: YOUSHEBIAOTIHEI;
+  src: url('./fonts/YOUSHEBIAOTIHEI-2.TTF') format('truetype');
+}
+
+
+/* 新页面 */
+.login-wrapper {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: 0 0 #212e57 url("../images/bg-community.jpg") no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.login-wrapper .main-div {
+  height: 100%;
+}
+
+.login-wrapper .main-div .left-div {
+  float: left;
+  height: 100%;
+  width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-wrapper .main-div .left-div img {
+  width: 100%;
+  max-width: 761px;
+}
+
+.login-wrapper .main-div {
+  height: 100%;
+  width: 100%;
+  float: right;
+  position: relative;
+}
+
+.login-wrapper .login-block {
+  height: 365px;
+  position: relative;
+  top: 50%;
+  margin: -290px auto;
+  text-align: center;
+}
+
+.login-wrapper .login-block .logo-title {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 8px;
+  text-shadow: 1px 0px 13px #0e0c0c91;
+}
+
+.login-wrapper .login-block .logo-title-en {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-shadow: 1px 0px 20px #080707e0;
+}
+
+.login-wrapper .login-form-block {
+  margin-top: 41px;
+  position: relative;
+}
+
+.login-wrapper .login-form-block .tabs {
+  width: 120px;
+  line-height: 22px;
+  display: flex;
+  margin: 0 auto 10px;
+  justify-content: space-between;
+  cursor: pointer;
+  color: #fff;
+}
+
+.login-wrapper .login-form-block .tabs .active {
+  border-bottom: 1px solid #17c5ce;
+  color: #2abbc4;
+}
+
+.login-wrapper .login-form-block .form {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.login-wrapper .verification-code .el-form-item__content {
+  display: flex;
+}
+
+.login-wrapper .verification-code .el-form-item__content .code-box {
+  width: 0;
+  flex: 5;
+  display: flex;
+}
+
+.login-wrapper .verification-code .el-form-item__content .code-box .code-image {
+  left: calc(100% + 10px);
+  top: -2px;
+  position: absolute;
+  flex: 1;
+  height: 45px;
+  margin: 0 10px 10px 0;
+  cursor: pointer;
+}
+
+.login-wrapper .login-form-input .el-input__inner {
+  width: 250px;
+  height: 36px;
+  border: 1px solid #387cf5;
+  color: white;
+  border-radius: 20px;
+  background-color: rgba(0, 20, 68, 0.51);
+  font-size: 12px;
+}
+
+.login-wrapper .login-form-code .el-input__inner {
+  width: 160px;
+}
+
+.login-wrapper .login-form-block .select-button {
+  cursor: pointer;
+  position: absolute;
+  top:5px;
+  right: 1.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  font-size: 0.875rem;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  text-decoration: underline;
+  color: #E6A23C;
+}
+
+.login-wrapper .login-form-block .form .login-form-input img {
+  margin: 11px 0 0 7px;
+}
+
+.login-wrapper .login-form-block .form .login-form-input__placeholder {
+  color: #87B0F3;
+}
+
+.login-wrapper .login-form-block .login-btn-block {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.login-wrapper .login-form-block .login-btn-block .login-btn-text {
+  width: 300px;
+  color: #387cf5;
+  font-size: 12px;
+  line-height: 40px;
+  border-bottom: 1px solid #387cf5;
+  cursor: pointer;
+}
+
+.login-wrapper .login-form-block .login-btn-block .login-btn-new {
+  margin: 0 auto;
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  border-radius: 20px;
+  background-image: linear-gradient(185deg, #09BBFE 42%, #5A42EC);
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.login-wrapper .login-form-block .login-btn-block .login-btn {
+  display: none;
+  position: absolute;
+  height: 125px;
+  width: 125px;
+  top: 180px;
+  left: 27px;
+  border-radius: 100%;
+  border: 1px solid #3278e4;
+  background-color: #16314f;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+
+.login-wrapper .login-form-block .login-btn-block .login-btn .login-btn-icon {
+  background-image: url('../images/icon_user.png');
+  display: block;
+  width: 43px;
+  height: 43px;
+  margin: 0 auto;
+}
+
+.login-wrapper .login-form-block .login-btn-block .login-btn .login-btn-txt {
+  color: #fff;
+  font-size: 24px;
+}
+
+.login-wrapper .login-form-block .login-key {
+  min-width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.login-wrapper .login-form-block .login-key a {
+  color: #006ef4;
+  text-decoration: none;
+}
+
+.login-wrapper .login-form-block .login-key a:hover {
+  text-decoration: underline;
+}
+
+.login-wrapper .main-div .chongqing-style {
+  height: 440px;
+  margin-top: -290px;
+}
+
+.login-wrapper .bottom {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  right: 0;
+  text-align: center;
+  color: #a4a9b4;
+  font-size: 14px;
+}
+
+.login-wrapper .bottom .red-bold {
+  font-weight: 700;
+  color: #e72521;
+  margin-right: 5px;
+}
+
+.login-wrapper .bottom .red-bold p {
+  font-size: 10px;
+}
